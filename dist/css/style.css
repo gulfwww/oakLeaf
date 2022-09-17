@@ -242,6 +242,10 @@ body {
     line-height: 1.4;
   }
 
+  .section-c {
+    padding-top: 0;
+  }
+
   .section-c .header {
     font-size: 2rem;
     line-height: 1.4;
