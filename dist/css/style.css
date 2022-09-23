@@ -101,6 +101,10 @@ body {
   margin-bottom: 1rem;
 }
 
+.service-box {
+  height: 100%;
+}
+
 .service-box img {
   transition: all 0.3s ease;
 }
