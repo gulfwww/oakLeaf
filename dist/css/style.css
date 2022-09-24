@@ -52,21 +52,13 @@ body {
 
 .hero-contetnt {
   width: 100%;
-  max-width: 991px;
   color: #fff;
   position: relative;
   z-index: 2;
 }
 
-.hero-contetnt h1 {
-  font-size: 3rem;
-  margin-bottom: 20px;
-  font-weight: 700;
-  text-transform: uppercase;
-}
-
 .hero-contetnt p {
-  font-size: 1.25rem;
+  font-size: 1.875rem;
 }
 
 .title {
