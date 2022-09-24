@@ -160,19 +160,14 @@ body {
     height: 480px;
   }
 
-  .hero-contetnt h1 {
-    font-size: 2rem;
-    line-height: 1.5;
-  }
-
   .hero-contetnt p {
-    font-size: 1.075rem;
-    line-height: 1.8;
+    font-size: 1.375rem;
+    line-height: 1.6;
   }
 
   .title {
-    font-size: 1.75rem;
-    line-height: 1.5;
+    font-size: 1.375rem;
+    line-height: 1.7;
   }
 
   main {
