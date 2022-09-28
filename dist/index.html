@@ -24,149 +24,275 @@
       integrity="sha384-iYQeCzEYFbKjA/T2uDLTpkwGzCiq6soy8tYaI1GyVh/UjpbCx/TYkiZhlZB6+fzT"
       crossorigin="anonymous"
     />
+    <link rel="stylesheet" href="css/carousel.css" />
     <link rel="stylesheet" href="css/style.css" />
-    <title>Cleveland Worldwide Consultants Limited</title>
+
+    <title>OakLeaf Commercial Ltd</title>
   </head>
+
   <body>
-    <header class="sticky-top shadow-sm bg-white py-2">
-      <div class="container">
-        <span class="logo"
-          ><span class="theme-clr">Cleveland</span> Worldwide</span
-        >
+    <header>
+      <nav class="navbar navbar-expand-lg py-0 py-md-2">
+        <div class="container">
+          <a class="navbar-brand" href="index.html">
+            <img src="./img/Logo.png" alt="logo" class="logo" width="330" />
+          </a>
+          <ul class="nav d-none d-lg-flex align-items-center contact__list">
+            <li class="nav-item">
+              <i class="bi bi-telephone-fill clr-theme"></i>
+              <div class="nav-link">
+                <span>Call Us:</span><strong>+971 4 346 4000</strong>
+              </div>
+            </li>
+            <li class="nav-item">
+              <i class="bi bi-envelope-fill clr-theme"></i>
+              <div class="nav-link">
+                <span>Email Us:</span><strong>oakleaf@gulfwww.com</strong>
+              </div>
+            </li>
+            <li class="nav-item">
+              <i class="bi bi-clock-fill clr-theme"></i>
+              <div class="nav-link">
+                <span>Opening Hours:</span
+                ><strong>Mon-Fri: 08:30 AM - 06:30 PM</strong>
+              </div>
+            </li>
+          </ul>
+        </div>
+      </nav>
+      <div class="sticky-navbar bg-theme text-white py-1">
+        <div class="container">
+          <ul class="nav justify-content-center">
+            <li class="nav-item">
+              <a class="nav-link" href="index.html">Home</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#about-us">About Us</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#products">Products</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#contact">Contact</a>
+            </li>
+          </ul>
+        </div>
       </div>
     </header>
 
     <!-- Hero Section -->
-    <section class="showcase">
-      <div class="container d-flex flex-column justify-content-center h-100">
-        <div class="row align-items-center h-100">
-          <div class="col-sm-12 col-md-12 col-lg-8">
-            <h1>Cleveland Worldwide Consultants Limited</h1>
-            <p>
-              For a crude oil and petroleum products trader, achieving success
-              leaves no room for improvisation. Many talents have to be merged
-              and managed to deal with the logistical constraints, in order to
-              minimise delays and to optimise the operational results.
-              Management of the unexpected is a talent our team has developed
-              over many years of collective experience. We dedicate maximum
-              importance to the smallest details, aiming for perfection in all
-              our transactions.
-            </p>
+    <section
+      id="myCarousel"
+      class="carousel slide carousel-fade showcase"
+      data-bs-ride="carousel"
+    >
+      <div class="carousel-indicators">
+        <button
+          type="button"
+          data-bs-target="#myCarousel"
+          data-bs-slide-to="0"
+          class="active"
+          aria-current="true"
+          aria-label="Slide 1"
+        ></button>
+        <button
+          type="button"
+          data-bs-target="#myCarousel"
+          data-bs-slide-to="1"
+          aria-label="Slide 2"
+        ></button>
+        <button
+          type="button"
+          data-bs-target="#myCarousel"
+          data-bs-slide-to="2"
+          aria-label="Slide 3"
+        ></button>
+        <button
+          type="button"
+          data-bs-target="#myCarousel"
+          data-bs-slide-to="3"
+          aria-label="Slide 4"
+        ></button>
+        <button
+          type="button"
+          data-bs-target="#myCarousel"
+          data-bs-slide-to="4"
+          aria-label="Slide 5"
+        ></button>
+        <button
+          type="button"
+          data-bs-target="#myCarousel"
+          data-bs-slide-to="5"
+          aria-label="Slide 6"
+        ></button>
+        <button
+          type="button"
+          data-bs-target="#myCarousel"
+          data-bs-slide-to="6"
+          aria-label="Slide 7"
+        ></button>
+      </div>
+      <div class="carousel-inner">
+        <div class="carousel-item active">
+          <img src="./img/banner1.png" class="d-block w-100" alt="Product" />
+          <div class="container">
+            <div class="carousel-caption">
+              <h1>Grains</h1>
+            </div>
+          </div>
+        </div>
+        <div class="carousel-item">
+          <img src="./img/banner2.png" class="d-block w-100" alt="Product" />
+          <div class="container">
+            <div class="carousel-caption">
+              <h1>Pulses and Beans</h1>
+            </div>
+          </div>
+        </div>
+        <div class="carousel-item">
+          <img src="./img/banner3.png" class="d-block w-100" alt="Product" />
+          <div class="container">
+            <div class="carousel-caption">
+              <h1>Oil Seeds</h1>
+            </div>
+          </div>
+        </div>
+        <div class="carousel-item">
+          <img src="./img/banner4.png" class="d-block w-100" alt="Product" />
+          <div class="container">
+            <div class="carousel-caption">
+              <h1>Poultry Meat Products</h1>
+            </div>
+          </div>
+        </div>
+        <div class="carousel-item">
+          <img src="./img/banner5.png" class="d-block w-100" alt="Product" />
+          <div class="container">
+            <div class="carousel-caption">
+              <h1>Dairy Products</h1>
+            </div>
+          </div>
+        </div>
+        <div class="carousel-item">
+          <img src="./img/banner6.png" class="d-block w-100" alt="Product" />
+          <div class="container">
+            <div class="carousel-caption">
+              <h1>Soft Commodities</h1>
+            </div>
+          </div>
+        </div>
+        <div class="carousel-item">
+          <img src="./img/banner7.png" class="d-block w-100" alt="Product" />
+          <div class="container">
+            <div class="carousel-caption">
+              <h1>Logistics for International Trading</h1>
+            </div>
           </div>
         </div>
       </div>
+      <!-- <button
+        class="carousel-control-prev"
+        type="button"
+        data-bs-target="#myCarousel"
+        data-bs-slide="prev"
+      >
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Previous</span>
+      </button>
+      <button
+        class="carousel-control-next"
+        type="button"
+        data-bs-target="#myCarousel"
+        data-bs-slide="next"
+      >
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Next</span>
+      </button> -->
     </section>
 
-    <!-- Feature -->
-    <section class="features">
-      <div class="container">
-        <div class="row gx-0 features-wrap">
-          <div class="col-lg-3 col-md-6 col-12 feature-item">
-            <div class="feature__content">
-              <h4 class="feature__title">Environmental Sensitivity</h4>
-              <p class="feature__desc">
-                The world of international supply chains involves a myriad of
-                unknown risks and challenging regulations.
-              </p>
-            </div>
-          </div>
-          <div class="col-lg-3 col-md-6 col-12 feature-item">
-            <div class="feature__content">
-              <h4 class="feature__title">Transparent Pricing</h4>
-              <p class="feature__desc">
-                You can make use the easy payment options, listed below, that
-                are available in your country.
-              </p>
-            </div>
-          </div>
-          <div class="col-lg-3 col-md-6 col-12 feature-item">
-            <div class="feature__content">
-              <h4 class="feature__title">Professional & Qualified</h4>
-              <p class="feature__desc">
-                We enhance our industry operations by relieving you of the
-                worries associated with freight forwarding.
-              </p>
-            </div>
-          </div>
-          <div class="col-lg-3 col-md-6 col-12 feature-item">
-            <div class="feature__content">
-              <h4 class="feature__title">Personalised Solutions</h4>
-              <p class="feature__desc">
-                Our facilities meet high security requirements and are certified
-                to the highest local standards.
-              </p>
-            </div>
-          </div>
-        </div>
-      </div>
-    </section>
-
-    <section class="about pb-90">
+    <!-- Products -->
+    <section id="products" class="products pt-120 pb-70 py-5">
       <div class="container">
         <div class="row">
-          <div class="col-sm-12 col-md-12 col-lg-12 col-xl-9 offset-xl-1">
-            <div class="heading heading-3 mb-50">
-              <span class="heading__subtitle"
-                >Choose the Best Opportunities, Always a Step Forward.</span
-              >
-              <h2 class="heading__title">
-                Reducing Risk &amp; Providing Access to the Lowest Prices in
-                International Markets
-              </h2>
-            </div>
-          </div>
-        </div>
-        <!-- Three Section -->
-        <div class="row">
-          <div class="col-sm-12 col-md-12 col-lg-4">
-            <div class="about__text mt-30">
-              <p>
-                Cleveland Worldwide is a representative Industrial Construction
-                operator providing a full range of services in the sphere of oil
-                & gas worldwide.
-              </p>
-              <p>
-                The world is changing faster than ever before, business is no
-                exception. Industic industries are threatened as technology
-                disrupts and software “eats the world.” Yet those that embrace
-                change are thriving, building bigger, better, faster, and
-                stronger products than ever before. You are helping to lead the
-                charge; we can help you build on your past successes and prepare
-                for future.
+          <div class="col-sm-12 col-md-12 col-lg-6 offset-lg-3">
+            <div class="heading text-center mb-50">
+              <span class="heading__subtitle">Insight and Trends</span>
+              <h2 class="heading__title">Inside Our Products</h2>
+              <div
+                class="divider__line divider__theme divider__center mb-0"
+              ></div>
+              <p class="heading__desc">
+                All you want to know about ingredients & Your safety is our
+                absolute priority
               </p>
             </div>
           </div>
-          <div class="col-sm-12 col-md-8 col-lg-5">
-            <img src="./img/about.jpg" alt="about" class="img-fluid" />
+        </div>
+        <div class="row gx-3">
+          <div class="col-lg-3 col-md-6 col-sm-6 col-12 mb-4">
+            <div class="card border-0 service-box shadow">
+              <a href="meat-seafood.html" class="d-block"
+                ><img src="img/product1.jpg" class="card-img-top" alt="Product"
+              /></a>
+              <div class="card-body px-3 px-md-2">
+                <h4 class="card-title">
+                  <a href="./meat-seafood.html" class="clr-theme"
+                    >Meat & Seafood</a
+                  >
+                </h4>
+                <p class="card-text">
+                  Frozen Meat & Fish, Poultry and Chicken Cuts.
+                </p>
+              </div>
+            </div>
           </div>
-          <div class="col-sm-12 col-md-12 col-lg-3">
-            <div class="features-list features-list-layout1 mt-30">
-              <div class="feature-item feature-list-item">
-                <div class="feature__content">
-                  <h4 class="feature__title">Quality</h4>
-                  <p class="feature__desc">
-                    Following the quality of our service thus having gained
-                    trust of our many clients.
-                  </p>
-                </div>
+          <div class="col-lg-3 col-md-6 col-sm-6 col-12 mb-4">
+            <div class="card border-0 service-box shadow">
+              <a href="grains.html" class="d-block"
+                ><img src="img/product2.jpg" class="card-img-top" alt="Product"
+              /></a>
+              <div class="card-body px-3 px-md-2">
+                <h4 class="card-title">
+                  <a href="./grains.html" class="clr-theme">Grains & Pulses</a>
+                </h4>
+                <p class="card-text">
+                  Rice, Lentils, Pulses, Spaghetti and Pasta.
+                </p>
               </div>
-              <div class="feature-item feature-list-item">
-                <div class="feature__content">
-                  <h4 class="feature__title">Reliability</h4>
-                  <p class="feature__desc">
-                    We have established a corporate mandate to maintain strong
-                    core values that truly reflect.
-                  </p>
-                </div>
+            </div>
+          </div>
+          <div class="col-lg-3 col-md-6 col-sm-6 col-12 mb-4">
+            <div class="card border-0 service-box shadow">
+              <a href="processed.html" class="d-block"
+                ><img src="img/product3.jpg" class="card-img-top" alt="Product"
+              /></a>
+              <div class="card-body px-3 px-md-2">
+                <h4 class="card-title">
+                  <a href="./processed.html" class="clr-theme"
+                    >Processed Food</a
+                  >
+                </h4>
+                <p class="card-text">
+                  Canned Foods & Meat, Canned Fish, Canned Fruits, Vegetables
+                  and Beans.
+                </p>
               </div>
-              <div class="feature-item feature-list-item">
-                <div class="feature__content">
-                  <h4 class="feature__title">Innovation</h4>
-                  <p class="feature__desc">
-                    Our company develops a unique dynamically and keeps in step
-                    with the times.
-                  </p>
-                </div>
+            </div>
+          </div>
+          <div class="col-lg-3 col-md-6 col-sm-6 col-12 mb-4">
+            <div class="card border-0 service-box shadow">
+              <a href="commodities.html" class="d-block"
+                ><img src="img/product4.jpg" class="card-img-top" alt="Product"
+              /></a>
+              <div class="card-body px-3 px-md-2">
+                <h4 class="card-title">
+                  <a href="./commodities.html" class="clr-theme"
+                    >Other Commodities</a
+                  >
+                </h4>
+                <p class="card-text">
+                  Salt, Wheat Flour, Edible Oils and Condiments.
+                </p>
               </div>
             </div>
           </div>
@@ -174,253 +300,75 @@
       </div>
     </section>
 
-    <section class="services services-layout3 pt-120 pb-120 bg-gray">
-      <div class="container">
-        <div class="row align-items-center heading mb-40">
-          <div class="col-sm-12 col-md-6 col-lg-6">
-            <span class="heading__subtitle"
-              >The Best Industry And Company Services</span
-            >
-            <h2 class="heading__title">
-              Provides High-Performance Services For energy flows And
-              Commodities!
-            </h2>
-          </div>
-          <div class="col-sm-12 col-md-6 col-lg-6">
-            <p class="heading__desc">
-              Our customers and partners trust us to support and supply global
-              energy flows, moving a diverse portfolio of products safely,
-              efficiently, and responsibly around the world.
-            </p>
-          </div>
-        </div>
-      </div>
-
-      <div class="container px-0">
-        <div class="row service-items-wrap gx-0">
-          <div class="col-sm-6 col-md-6 col-lg-3 px-0">
-            <div class="service-item">
-              <div class="service__content">
-                <h4 class="service__title">Petroleum &amp; Gas</h4>
-                <p class="service__desc">
-                  Petroleum and natural gas are nonrenewable sources of energy,
-                  a liquid found underground that can be used to make gasoline.
-                </p>
-              </div>
-              <div class="service__img">
-                <img
-                  src="./img/petroleum.jpg"
-                  alt="service"
-                  class="img-fluid"
-                />
-                <div class="service__overlay">
-                  <a href="#" class="zoom__icon"></a>
-                </div>
-              </div>
-            </div>
-          </div>
-          <div class="col-sm-6 col-md-6 col-lg-3 px-0">
-            <div class="service-item">
-              <div class="service__content">
-                <h4 class="service__title">Gasoline &amp; Naphtha</h4>
-                <p class="service__desc">
-                  Professional discipline deals with designing, planning,
-                  construction and infrastructures management such as roads,
-                  tunnels, bridges.
-                </p>
-              </div>
-              <div class="service__img">
-                <img src="./img/gasoline.jpg" alt="service" class="img-fluid" />
-                <div class="service__overlay">
-                  <a href="#" class="zoom__icon"></a>
-                </div>
-              </div>
-            </div>
-          </div>
-          <div class="col-sm-6 col-md-6 col-lg-3 px-0">
-            <div class="service-item">
-              <div class="service__content">
-                <h4 class="service__title">Crude oil</h4>
-                <p class="service__desc">
-                  Materials science principles to design, analyze, manufacture,
-                  and maintain mechanical systems. It is one of the oldest .
-                </p>
-              </div>
-
-              <div class="service__img">
-                <img src="./img/crude.jpg" alt="service" class="img-fluid" />
-                <div class="service__overlay">
-                  <a href="#" class="zoom__icon"></a>
-                </div>
-              </div>
-            </div>
-          </div>
-          <div class="col-sm-6 col-md-6 col-lg-3 px-0">
-            <div class="service-item">
-              <div class="service__content">
-                <h4 class="service__title">Fuel Oil</h4>
-                <p class="service__desc">
-                  Produced in huge quantities and critical ingredients for
-                  products used by both industry and the general consumer.
-                </p>
-              </div>
-              <div class="service__img">
-                <img src="./img/img-1.jpg" alt="service" class="img-fluid" />
-                <div class="service__overlay">
-                  <a href="#" class="zoom__icon"></a>
-                </div>
-              </div>
-            </div>
-          </div>
-          <div class="col-sm-6 col-md-6 col-lg-3 px-0">
-            <div class="service-item">
-              <div class="service__content">
-                <h4 class="service__title">Gasoil &amp; Jet</h4>
-                <p class="service__desc">
-                  Produced in huge quantities and critical ingredients for
-                  products used by both industry and the general consumer.
-                </p>
-              </div>
-              <div class="service__img">
-                <img src="./img/Jet.jpg" alt="service" class="img-fluid" />
-                <div class="service__overlay">
-                  <a href="#" class="zoom__icon"></a>
-                </div>
-              </div>
-            </div>
-          </div>
-          <div class="col-sm-6 col-md-6 col-lg-3 px-0">
-            <div class="service-item">
-              <div class="service__content">
-                <h4 class="service__title">Bitumen</h4>
-                <p class="service__desc">
-                  Produced in huge quantities and critical ingredients for
-                  products used by both industry and the general consumer.
-                </p>
-              </div>
-              <div class="service__img">
-                <img src="./img/bitumen.jpg" alt="service" class="img-fluid" />
-                <div class="service__overlay">
-                  <a href="#" class="zoom__icon"></a>
-                </div>
-              </div>
-            </div>
-          </div>
-          <div class="col-sm-6 col-md-6 col-lg-3 px-0">
-            <div class="service-item">
-              <div class="service__content">
-                <h4 class="service__title">LNG</h4>
-                <p class="service__desc">
-                  Produced in huge quantities and critical ingredients for
-                  products used by both industry and the general consumer.
-                </p>
-              </div>
-              <div class="service__img">
-                <img src="./img/img-4.jpg" alt="service" class="img-fluid" />
-                <div class="service__overlay">
-                  <a href="#" class="zoom__icon"></a>
-                </div>
-              </div>
-            </div>
-          </div>
-          <div class="col-sm-6 col-md-6 col-lg-3 px-0">
-            <div class="service-item">
-              <div class="service__content">
-                <h4 class="service__title">LPG</h4>
-                <p class="service__desc">
-                  Produced in huge quantities and critical ingredients for
-                  products used by both industry and the general consumer.
-                </p>
-              </div>
-              <div class="service__img">
-                <img src="./img/img-2.jpg" alt="service" class="img-fluid" />
-                <div class="service__overlay">
-                  <a href="#" class="zoom__icon"></a>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-    </section>
-
-    <section class="parallax-section pt-120">
-      <div class="container">
-        <div class="row heading mb-30">
-          <div class="col-sm-12 col-md-12 col-lg-12">
-            <span class="heading__subtitle">Why Choose Our Services?</span>
-          </div>
-          <div class="col-sm-12 col-md-12 col-lg-6">
-            <h2 class="heading__title color-white">
-              Reliable, Effective &amp;Technically Advanced Products!
-            </h2>
-          </div>
-          <div class="col-sm-12 col-md-12 col-lg-6">
-            <p class="heading__desc color-white">
-              Industic Engineering has been built on engineering excellence
-              crafted through unstinted dedication to quality, innovation and a
-              constant objective to serve the global market &amp; decade young
-              industry expertise.
-            </p>
-          </div>
-        </div>
+    <!-- About -->
+    <section id="about-us" class="about">
+      <div class="container-fluid p-0">
         <div class="row">
-          <div class="col-sm-12 col-md-12 col-lg-6">
-            <div class="feature-item feature-list-item">
-              <div class="feature__content">
-                <h4 class="feature__title color-white">
-                  Quality Control System
-                </h4>
-                <p class="feature__desc color-white">
-                  Following the quality of our service thus having gained trust
-                  of our many clients.
+          <div
+            class="col-sm-12 col-md-12 col-lg-6 p-0 parallax-section mobile-bg"
+          >
+            <div class="inner-padding">
+              <div class="heading heading-2 heading-white mb-30">
+                <h2 class="heading__title text-white">
+                  Individually Assess Each Plan And Offer Optimal Solutions!
+                </h2>
+                <p class="heading__desc text-white">
+                  We are engaged in the full-service of trading agricultural
+                  commodities. Specialized in the supply chain management of the
+                  agricultural commodities such as grains, pulses, oil seeds &
+                  edible oils, poultry meat, dairy and other soft commodities.
                 </p>
-              </div>
-            </div>
-            <div class="feature-item feature-list-item">
-              <div class="feature__content">
-                <h4 class="feature__title color-white">
-                  100% Satisfaction Guarantee
-                </h4>
-                <p class="feature__desc color-white">
-                  An integrated approach to providing engineering services
-                  allows our clients to benefit from the commercial and
-                  logistical advantages.
+                <p class="heading__desc text-white">
+                  We source, secure, manage, transport, and distribute products
+                  through our end-to-end supply chain while minimizing all
+                  related costs. We facilitate the movement of goods with a keen
+                  market sense and swift efficiency from sourcing commodities
+                  from the producing countries to our international customers,
+                  from origin and marketing to financing and logistics.
+                </p>
+                <p class="heading__desc text-white">
+                  We firmly believes in the sourcing of quality products from
+                  the right origin with a view to maintain superiority of the
+                  product, its commercial viability in the imported market and
+                  its ability to consolidate presence among the final consumer.
                 </p>
               </div>
             </div>
           </div>
-          <div class="col-sm-12 col-md-12 col-lg-6">
-            <div class="feature-item feature-list-item">
-              <div class="feature__content">
-                <h4 class="feature__title color-white">
-                  Highly Professional Staff
-                </h4>
-                <p class="feature__desc color-white">
-                  We are one of the Nations largest automotive parts recyclers
-                  and a widely recognized leader utilizing advanced computerized
-                  techniques.
-                </p>
-              </div>
-            </div>
-            <div class="feature-item feature-list-item">
-              <div class="feature__content">
-                <h4 class="feature__title color-white">
-                  Accurate Testing Processes
-                </h4>
-                <p class="feature__desc color-white">
-                  We’ll work with you on your project, large or small. Together
-                  we’ll fine-tune your new construction, remodeling or
-                  renovation plans.
-                </p>
-              </div>
+          <div class="col-sm-12 col-md-12 col-lg-6 p-0 bg-theme">
+            <div class="inner-padding">
+              <p class="heading__desc text-white">
+                Our suppliers from different regions of the world are reputed
+                for their dedication to ethical business practices and adhering
+                to the highest quality standards while having decades of
+                experience in the industry.
+              </p>
+              <p class="heading__desc text-white">
+                We at Oakleaf International Ltd., we value our customers’ needs
+                and is capable of meeting the global demand because of our great
+                values in business through respect, honesty and highest ethical
+                standards. Committed to maintain quality in the products, timely
+                shipments, competitive prices with vast knowledge and hands on
+                experience in trading, finance and logistics of the concerned
+                commodities.
+              </p>
+              <h2 class="heading__title mt-4 pt-2 text-white">Our Vision:</h2>
+              <p class="heading__desc text-white">
+                Our vision is to be the recognized performance leader of the
+                commodities trading. Being a performance leader means we will
+                achieve operational excellence, consistently supplying high
+                quality products that exceed our customers' expectation,
+                industry-leading customer satisfaction and superior financial
+                performance
+              </p>
             </div>
           </div>
         </div>
       </div>
     </section>
 
-    <section class="contact pb-30">
+    <!-- Contact -->
+    <section id="contact" class="contact pb-5">
       <div class="container">
         <div class="col-sm-12 col-md-12 col-lg-12">
           <div class="contact-quote-panel">
@@ -434,35 +382,36 @@
                 timelines are met.
               </p>
               <ul class="contact__panel-list list-unstyled">
-                <li class="color-white mb-3">
-                  <i class="bi bi-geo-alt color-white me-2"></i>
+                <li class="text-white mb-3">
+                  <i class="bi bi-geo-alt text-white me-1"></i>
                   <span>
-                    Room 1901 19/F Lee Garden One,<br />
-                    &ensp;&ensp;&ensp;33 Hysan Avenue, Causeway Bay<br />&ensp;&ensp;&ensp;
-                    Hong Kong, China
+                    Suite 1305, 13th Floor,<br />
+                    &ensp;&ensp;&ensp;Dubai World Trade Centre<br />
+                    &ensp;&ensp;&ensp;Sheikh Zayed Road<br />
+                    &ensp;&ensp;&ensp;Dubai, United Arab Emirates
                   </span>
                 </li>
-                <li class="color-white mb-3">
-                  <i class="bi bi-telephone color-white me-2"></i
+                <li class="text-white mb-3">
+                  <i class="bi bi-telephone text-white me-1"></i
                   ><span
-                    ><a href="tel:+97143464000" class="color-white"
+                    ><a href="tel:+97143464000" class="text-white"
                       >&ensp;+971 4 346 4000</a
                     ></span
                   >
                 </li>
-                <li class="color-white mb-3">
-                  <i class="bi bi-printer color-white me-2"></i
+                <li class="text-white mb-3">
+                  <i class="bi bi-printer color-white me-1"></i
                   ><span
-                    ><a href="tel:+97143464100" class="color-white"
-                      >&ensp;+971 4 346 4100</a
+                    ><a href="tel:+97143464200" class="text-white"
+                      >&ensp;+971 4 346 4200</a
                     ></span
                   >
                 </li>
-                <li class="color-white mb-3">
-                  <i class="bi bi-envelope color-white me-2"></i
+                <li class="text-white mb-3">
+                  <i class="bi bi-envelope text-white me-1"></i
                   ><span
-                    ><a href="mailto:info@clevelandltd.com" class="color-white"
-                      >&ensp;info@clevelandltd.com</a
+                    ><a href="mailto:oakleaf@gulfwww.com" class="text-white"
+                      >&ensp;oakleaf@gulfwww.com</a
                     ></span
                   >
                 </li>
@@ -474,12 +423,12 @@
                 <ul
                   class="contact__panel-list contact__panel-list-2 list-unstyled"
                 >
-                  <li class="color-white mb-2">
-                    <i class="bi bi-clock color-white me-2"></i>
-                    <span>Monday-Saturday</span><span> 10:00 - 18:00</span>
+                  <li class="text-white mb-2">
+                    <i class="bi bi-clock text-white me-2"></i>
+                    <span>Monday - Saturday</span><span> 10:00 - 18:00</span>
                   </li>
-                  <li class="color-white">
-                    <i class="bi bi-clock-fill color-white me-2"></i>
+                  <li class="text-white">
+                    <i class="bi bi-clock-fill text-white me-2"></i>
                     <span>Sunday</span><span> - Closed</span>
                   </li>
                 </ul>
@@ -501,11 +450,19 @@
         </div>
       </div>
     </section>
-    <footer class="text-center text-white py-2 py-md-3">
+
+    <footer class="text-center text-white bg-theme py-2 py-md-3">
       <small
-        >Copyright &copy; 2022
-        <span class="theme-clr">Cleveland</span> Worldwide Consultants</small
+        >Copyright © 2022 <span class="theme-clr">OakLeaf</span> Commercial
+        Ltd</small
       >
     </footer>
+
+    <!-- Js -->
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-u1OknCvxWvY5kfmNBILK2hRnQC3Pr17a+RTT6rIHI7NnikvbZlHgTPOOmMi466C8"
+      crossorigin="anonymous"
+    ></script>
   </body>
 </html>
