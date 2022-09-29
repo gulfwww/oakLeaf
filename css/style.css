@@ -260,27 +260,13 @@ nav {
   color: #eee;
 }
 
-.contact-quote-panel {
-  display: flex;
-  flex-wrap: wrap;
-}
-
 .contact__panel {
   background-image: url(../img/bg-food.jpg);
   background-size: cover;
   background-position: center center;
-  flex-basis: 36%;
-  padding: 60px;
+  padding: 50px 50px 10px;
   position: relative;
   z-index: 1;
-}
-
-.contact-quote-panel .map {
-  flex-basis: 64%;
-  background-color: #fff;
-  box-shadow: 0 1px 73px 0 rgb(40 40 40 / 15%);
-  position: relative;
-  z-index: 2;
 }
 
 .contact__panel:before {
@@ -300,7 +286,6 @@ nav {
   font-size: 22px;
   line-height: 32px;
   color: #fff;
-  margin-bottom: 27px;
 }
 
 .contact__panel p {
@@ -423,15 +408,6 @@ nav {
     font-size: 24px;
     line-height: 32px;
   }
-
-  .contact__panel,
-  .contact-quote-panel .map {
-    flex-basis: 100%;
-  }
-
-  .contact-quote-panel .map {
-    height: 450px;
-  }
 }
 
 @media screen and (max-width: 768px) {
@@ -484,6 +460,7 @@ nav {
   }
 
   .bg-theme .inner-padding {
+    padding-top: 20px;
     padding-bottom: 110px;
   }
 
