@@ -251,49 +251,6 @@ nav {
   margin-bottom: 20px;
 }
 
-.contact {
-  margin-top: -80px;
-  z-index: 3;
-}
-
-.contact a:hover {
-  color: #eee;
-}
-
-.contact__panel {
-  background-image: url(../img/bg-food.jpg);
-  background-size: cover;
-  background-position: center center;
-  padding: 50px 50px 10px;
-  position: relative;
-  z-index: 1;
-}
-
-.contact__panel:before {
-  content: "";
-  position: absolute;
-  top: 0;
-  right: 0;
-  bottom: 0;
-  left: 0;
-  width: 100%;
-  height: 100%;
-  z-index: -1;
-  background-color: rgba(2, 91, 80, 0.95);
-}
-
-.contact__panel-title {
-  font-size: 22px;
-  line-height: 32px;
-  color: #fff;
-}
-
-.contact__panel p {
-  font-size: 14px;
-  line-height: 24px;
-  color: #fff;
-}
-
 .text__block-title {
   font-size: 24px;
   margin-bottom: 16px;
@@ -352,6 +309,45 @@ nav {
 .widget-categories ul li a:hover {
   background-color: #025b50;
   color: #ffffff;
+}
+
+/* Contact */
+.contact a:hover {
+  color: #eee;
+}
+
+.contact {
+  background-image: url(../img/bg-food.jpg);
+  background-size: cover;
+  background-position: center center;
+  padding: 50px 50px;
+  position: relative;
+  z-index: 1;
+}
+
+.contact:before {
+  content: "";
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  z-index: -1;
+  background-color: rgba(2, 91, 80, 0.95);
+}
+
+.contact__panel-title {
+  font-size: 22px;
+  line-height: 32px;
+  color: #fff;
+}
+
+.contact__panel p {
+  font-size: 14px;
+  line-height: 24px;
+  color: #fff;
 }
 
 /* Media Query */
@@ -464,7 +460,8 @@ nav {
     padding-bottom: 110px;
   }
 
-  .contact__panel {
-    padding: 32px;
+  .contact {
+    padding-left: 16px;
+    padding-right: 16px;
   }
 }
